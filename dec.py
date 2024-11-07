@@ -1,10 +1,10 @@
-def mul(func):
+def multiply(func):
   def sumofsquare(a,b):
     return func(a**2,b**3)
   return sumofsquare
 @mul    
-def fun(x,y):
+def add(x,y):
   return x + y
-c=fun(5,6)
+c=add(5,6)
 print(c)
 
